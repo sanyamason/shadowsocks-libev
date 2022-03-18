@@ -1,5 +1,5 @@
 # Alpine with China mirror
-FROM alpine
+FROM alpine:3.15
 MAINTAINER wener <wenermail@gmail.com>
 
 # Better for cache and dev
