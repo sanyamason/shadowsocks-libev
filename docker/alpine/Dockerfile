@@ -2,7 +2,7 @@
 # Dockerfile for shadowsocks-libev
 #
 
-FROM alpine
+FROM alpine:3.18.3
 LABEL maintainer="kev <noreply@datageek.info>, Sah <contact@leesah.name>"
 
 ENV SERVER_ADDR 0.0.0.0
